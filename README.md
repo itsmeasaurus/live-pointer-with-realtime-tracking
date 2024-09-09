@@ -24,6 +24,7 @@ Before setting up the project, ensure you have the following installed:
    composer install
    npm install
    cp .env.example .env
+   php artisan key:generate
    php artisan migrate
    php artisan reverb:start (in one terminal)
    npm run dev (in another terminal)
